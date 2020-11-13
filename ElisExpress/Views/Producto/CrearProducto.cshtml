@@ -1,0 +1,17 @@
+﻿@model Producto
+
+    <form asp-controller="Producto" asp-action="CrearProducto" method="post">
+        <label>Ingrese el nombre</label>
+        <input type="text" asp-for="Nombre" />
+
+        <label>Ingrese el id</label>
+        <input type="number" asp-for="Id" />
+
+        <label>Ingrese la descripción</label>
+        <input type="text" asp-for="Descripcion"/>
+
+        <label>Ingrese el precio</label>
+        <input type="number" asp-for="Precio" />
+
+        <input type="submit" value="Crear" />
+    </form>

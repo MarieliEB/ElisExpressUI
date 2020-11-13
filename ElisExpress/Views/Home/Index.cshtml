@@ -1,0 +1,27 @@
+﻿@model CategoriaViewModel
+
+@foreach (var categoria in Model.Categorias)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td>
+                        @categoria.Nombre
+                    </td>
+                    <td>
+                        @categoria.Descripcion
+                    </td>
+                    <td>
+                        @categoria.Id
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+}

@@ -37,3 +37,4 @@ C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExp
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpress.csproj.CopyComplete
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\Razor\Views\Producto\Productos.cshtml.g.cs
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\Razor\Views\Producto\CrearProducto.cshtml.g.cs
+C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\Razor\Views\Home\CrearCategoria.cshtml.g.cs

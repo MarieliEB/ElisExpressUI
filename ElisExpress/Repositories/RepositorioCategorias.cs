@@ -8,7 +8,7 @@ namespace ElisExpress.Repositories
 {
     public class RepositorioCategorias
     {
-        public IEnumerable<Categoria> Categorias = new List<Categoria>
+        public IList<Categoria> Categorias = new List<Categoria>
         {
             new Categoria
             {

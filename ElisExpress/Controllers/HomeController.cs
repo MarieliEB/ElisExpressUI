@@ -29,5 +29,19 @@ namespace ElisExpress.Controllers
 
             return View(modelo);
         }
+
+        [HttpGet]
+        public IActionResult CrearCategoria()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult CrearCategoria(Categoria categoria)
+        {
+            repositorioCategorias.Categorias.Add(categoria); //Ir a la base de datos a guardarlo 
+            return RedirectToAction("Index");
+        }
     }
 }

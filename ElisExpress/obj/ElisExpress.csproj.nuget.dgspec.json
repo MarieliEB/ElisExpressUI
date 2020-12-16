@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj": {}
+    "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\ElisExpress.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj": {
+    "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\ElisExpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj",
+        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\ElisExpress.csproj",
         "projectName": "ElisExpress",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\obj\\",
+        "projectPath": "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\ElisExpress.csproj",
+        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

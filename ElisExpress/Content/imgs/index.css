@@ -1,0 +1,178 @@
+﻿#jumbotron1 {
+    background: #222 url("./imgs/welcomeDinner.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    margin-top: -78px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+/*#jumbotron1 .header-content {
+        max-width: 500px;
+        text-align: center;
+    }
+
+        #jumbotron1 .header-content h1 {
+            font-size: 30px;
+        }
+
+    #jumbotron1 .device-container {
+        max-width: 325px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+        #jumbotron1 .device-container .screen img {
+            border-radius: 3px;
+        }*/
+
+#jumbotron1-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#inputBuscar {
+    max-width: inherit;
+}
+
+
+/* only used for background overlay not needed for centering */
+#formInputBuscar:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+    #jumbotron1 {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+        #jumbotron1 .header-content {
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+            #jumbotron1 .header-content h1 {
+                font-size: 50px;
+            }
+
+        #jumbotron1 .device-container {
+            max-width: 325px;
+        }
+}
+
+section.jumboCenter {
+    position: relative;
+    padding: 50px 0;
+}
+
+    section.jumboCenter h2 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    section.jumboCenter .badges .badge-link {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+        section.jumboCenter .badges .badge-link:last-child {
+            margin-bottom: 0;
+        }
+
+        section.jumboCenter .badges .badge-link img {
+            height: 60px;
+        }
+
+@media (min-width: 768px) {
+    section.jumboCenter .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    section.jumboCenter h2 {
+        font-size: 70px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Inicio codigo pasos*/
+
+.pasos {
+    color: white;
+    text-align: center;
+}
+
+
+.emptyRight {
+    float: right;
+    width: 55%;
+    height: 500px;
+}
+
+.emptyLeft {
+    float: left;
+    width: 45%;
+    height: 500px;
+}
+
+div.introRight {
+    /* background-color:#729702; */
+    float: right;
+    padding: 50px;
+    width: 45%;
+    max-width: 900px;
+}
+
+div.introLeft {
+    /* background-color:#729702; */
+    float: left;
+    padding: 50px;
+    width: 55%;
+    max-width: 900px;
+}
+
+
+.numberCircle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    margin: auto;
+    font: 80px Arial, sans-serif;
+}
+
+    .numberCircle + h1, h2 {
+        padding-top: 30px;
+    }
+
+/**********Fin codigo pasos*********/
+
+#registrarme {
+    padding: 130px 0px;
+}

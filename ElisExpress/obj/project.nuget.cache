@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZzdGb1WWv2q4Lt/fUTzg6vBIHVtG4Qza3SEysr/anHLYFxwqgsc1vD5MxgQiwW6bL58aAu83ZQ4ZgpUqq3z0PA==",
+  "dgSpecHash": "vZTYMP8E0cBY0AwiD1xCz04Vf8l8yhyP3jCt3HmXkSpyHMsfAEFs1Fab15TTGwuFCf405A+YONgWfD7dqylfGw==",
   "success": true,
   "projectFilePath": "D:\\Users\\Elian\\Desktop\\EliExpress\\ElisExpressUI\\ElisExpress\\ElisExpress.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Elian\\.nuget\\packages\\bootstrap.less\\3.4.1\\bootstrap.less.3.4.1.nupkg.sha512",
+    "C:\\Users\\Elian\\.nuget\\packages\\cloudinarydotnet\\1.14.0\\cloudinarydotnet.1.14.0.nupkg.sha512",
+    "C:\\Users\\Elian\\.nuget\\packages\\jquery\\1.9.1\\jquery.1.9.1.nupkg.sha512",
+    "C:\\Users\\Elian\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,20 +1,13 @@
 ﻿
-@{
-    //ViewBag.Title = this.Session.SessionID;
-}
-
 
 <section id="jumbotron1" class="min-vh-100">
     <div id="jumbotron1-caption">
         <div class="row text-white">
             <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center p-4">
-                <h1 class="display-4 text-truncate">Hoy quiero...</h1>
+                <h1 class="display-4 text-truncate">ElisExpresss...</h1>
                 <div class="">
                     <form action="" class="justify-content-center" id="formInputBuscar">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Hamburguesa, pizza, pollo" id="inputBuscar">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg">ToGo</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Buscar productos</button>
                     </form>
                 </div>
             </div>
@@ -36,50 +29,37 @@
 
 <section class="clearfix bg-white pasos text-dark">
     <div class="emptyRight">
-        <source media="(min-width: 768px)" srcset="Content/imgs/UberEats.jpg">
-        <img class="none" src="Content/imgs/UberEats.jpg" alt="Paso1" style="width:100%;height:100%;object-fit:cover;">
+        <source media="(min-width: 768px)" srcset="Content/imgs/bucar.jpg">
+        <img class="none" src="Content/imgs/buscar.jpg" alt="Paso1" style="width:100%;height:100%;object-fit:cover;">
     </div>
     <div class="introRight">
         <h1 class="numberCircle" style="padding-top:0px;">1</h1>
 
-        <h2>Buscá tu restaurante favorito y agregá los productos más deliciosos al carrito.</h1>
+        <h2>Buscá tu artículo favorito y agrégalo al carrito.</h2>
 
     </div>
 </section>
 
 <section class="clearfix bg-dark pasos">
     <div class="emptyLeft">
-        <source media="(min-width: 768px)" srcset="Content/imgs/delivery.jpg">
+        <source media="(min-width: 768px)" srcset="Content/imgs/payment.jpg">
         <img class="none" src="Content/imgs/payment.jpg" alt="Paso2" style="width:100%;height:100%;object-fit:cover;">
     </div>
     <div class="introLeft">
         <h1 class="numberCircle" style="padding-top:0px;">2 </h1>
-        <h1>Confirmá el pago con tu cuenta PayPal. </h1>
+        <h1>Confirmá el pago. </h1>
     </div>
 </section>
 
 <section class="clearfix text-dark pasos ">
     <div class="emptyRight">
-        <source media="(min-width: 768px)" srcset="Content/imgs/payment.jpg">
+        <source media="(min-width: 768px)" srcset="Content/imgs/delivery.jpg">
         <img class="none" src="Content/imgs/delivery.jpg" alt="Paso3" style="width:100%;height:100%;object-fit:cover;">
     </div>
     <div class="introRight">
         <h1 class="numberCircle" style="padding-top:0px;">3</h1>
 
-        <h1>Tu orden será entregada por uno de nuestros colaboradores.</h1>
+        <h1>Tu producto será entregado por uno de nuestros colaboradores.</h1>
 
-    </div>
-</section>
-
-<section class="jumboCenter bg-light text-center" id="registrarmeDiv">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 mx-auto">
-                <h2 class="section-heading text-primary">Pedí ToGo!</h2>
-                <p class="lead">
-                    @Html.ActionLink("Registrarme", "vRegistrarUsuarioFinal", "Home", new { @class = "btn btn-primary btn-lg" })
-                </p>
-            </div>
-        </div>
     </div>
 </section>

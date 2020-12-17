@@ -1,42 +1,113 @@
 ﻿@model ProductoViewModel
 
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/vProducto.js"></script>
+<link href="~/Content/vProductos.css" rel="stylesheet" />
+
 <a asp-controller="Producto" asp-action="CrearProducto">Crear producto</a>
 
-<div class=" col-12">
-
-    <h1 class="col-12" style="text-align-last: center; margin-top: 20px;">Productos</h1>
-    <table class="table table-hover col-11 table-bordered" style="text-align: center;" id="tbl_productos">
-
-        @foreach (var producto in Model.Productos)
-        {
-
-            <thead>
-                <tr class="table-dark">
-                    <th scope="col">Id</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Descripción</th>
-                    <th scope="col">Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        @producto.Id
-                    </td>
-                    <td>
-                        @producto.Nombre
-                    </td>
-                    <td>
-                        @producto.Descripcion
-                    </td>
-                    <td>
-                        @producto.Id
-                    </td>
-                </tr>
-            </tbody>
 
 
-        }
+<h1 class="display-3 col-12" style="text-align-last: center;">Productos</h1>
 
-    </table>
+<hr class="my-4">
+
+<div id="contenedorproductos" class="mb-3 card-group row justify-content-center" style="width: 100%">
+
+
+    @foreach (var producto in Model.Productos)
+    {
+
+        <div class="card" classList="col-4" style="margin-top: 10px; cursor:pointer; " id="div_card">
+
+            <script>
+                $(div_card).mouseover(function () {
+                    this.style.opacity = "0.7"
+                })
+                $(div_card).mouseout(function () {
+                    this.style.opacity = "1"
+                })
+                $(div_card).click(function () { // AQUI SE PUEDE PONER LA FUNCION PARA COMPRAR O CARRITO
+                    // var vProducto = new vVistaClienteUF();
+                    // vComercio.cambiarComercio(data[i]);
+                })
+
+                div_card.classList.add('card', 'mr-3');
+            </script>
+
+
+            <div id="div_h3">
+
+                <script>
+                    document.querySelector('#div_h3').classList.add('card-header');
+                    document.querySelector('#div_h3').classList.add('bg-dark');
+                    document.querySelector('#div_h3').classList.add('text-white');
+                    document.querySelector('#div_h3').classList.add('card-title');
+
+                </script>
+                <h3>
+                    @producto.Nombre
+                </h3>
+            </div>
+
+            <div id="img_container">
+                <script>
+                    img_container.classList.add('img-container');
+
+                    var imagen = document.createElement('img');
+                    imagen.classList.add('img-fluid');
+                    imagen.style.height = "200px";
+                    imagen.style.width = "100%";
+                    //imagen.id = 'i' + data[i].CedulaProducto; // ARREGLAR AQUI. OCUPO LA LISTA DE IMAGENES
+                    imagen.src = '';
+                </script>
+
+            </div>
+
+            <div id="div_h5" style="margin: auto">
+                <h5>
+                    @producto.Id
+                </h5>
+            </div>
+            <div id="div_desc">
+                <p>
+                    @producto.Descripcion
+                </p>
+            </div>
+            <div id="div_h5" style="margin: auto">
+                <h5>
+                    @producto.Precio
+                </h5>
+            </div>
+
+
+        </div>
+    }
+
+</div>
+
+
+<div class="modal" id="cambioProductoModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header badge-dark">
+                <h5 class="modal-title">Cambio de producto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3 id="" class="pb-2">Al cambiar de restaurante se vaciará el carrito.</h3>
+                <span>Desea continuar?</span>
+
+            </div>
+            <div class="modal-footer">
+                <button id="vaciarContinuar" type="button" class="btn btn-primary">Vaciar y continuar</button>
+                <button id="cerrarCambio" type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
 </div>

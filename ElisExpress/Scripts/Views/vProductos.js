@@ -32,7 +32,7 @@ function vVistaProducto() {
     //divh3.classList.add('bg-dark');
     //divh3.classList.add('text-white');
     //divh3.classList.add('card-title');
-    divh3.innerText = @producto.Nombre;  //  AQUÍ SE LE PONE EL NOMBRE DEL PROD AL CARD
+    //divh3.innerText = @producto.Nombre;  //  AQUÍ SE LE PONE EL NOMBRE DEL PROD AL CARD
 
 
     var img_container = document.createElement('div');

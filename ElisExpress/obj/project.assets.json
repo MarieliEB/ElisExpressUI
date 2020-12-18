@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj",
-      "projectName": "ElisExpress",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpress.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpressWebUI.csproj",
+      "projectName": "ElisExpressWebUI",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\ElisExpressWebUI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\ElisExpress\\obj\\",
       "projectStyle": "PackageReference",

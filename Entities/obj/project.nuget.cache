@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r6tXXh2K1UejHuTm/RjGX8DzpVWLZ3xSitRXBr/jXz48kcV6txup9WYFPGSqAk+OhFxj8tNHIFIYe/CS7qWyPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\ElisExpress\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

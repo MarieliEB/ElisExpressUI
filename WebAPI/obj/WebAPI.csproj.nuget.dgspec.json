@@ -180,6 +180,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Bootstrap.Less": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

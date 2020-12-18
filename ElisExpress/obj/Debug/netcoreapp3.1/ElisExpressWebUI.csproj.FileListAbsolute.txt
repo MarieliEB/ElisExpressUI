@@ -38,3 +38,6 @@ C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExp
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpressWebUI.pdb
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpressWebUI.genruntimeconfig.cache
 C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpressWebUI.csproj.CopyComplete
+C:\Users\hp\source\repos\ElisExpress\ElisExpress\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\hp\source\repos\ElisExpress\ElisExpress\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\source\repos\ElisExpress\ElisExpress\obj\Debug\netcoreapp3.1\Razor\Views\Home\vCarrito.cshtml.g.cs

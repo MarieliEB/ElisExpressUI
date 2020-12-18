@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "bootstrap.less/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "[1.9.1, 4.0.0)"
+        }
+      },
+      "CloudinaryDotNet/1.14.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.3/CloudinaryDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/CloudinaryDotNet.dll": {}
+        }
+      },
+      "jQuery/1.9.1": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -66,6 +87,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -196,6 +226,10 @@
       "ElisExpressWebUI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Bootstrap.Less": "3.4.1",
+          "CloudinaryDotNet": "1.14.0"
+        },
         "compile": {
           "bin/placeholder/ElisExpressWebUI.dll": {}
         },
@@ -219,6 +253,209 @@
     }
   },
   "libraries": {
+    "bootstrap.less/3.4.1": {
+      "sha512": "G/laxBbHVHq4G7LCbfRLISrJf8wjaMsx7qpEDzAorUr+jbl66xP5Pd7IPmqAIi5u8six7/ETv9M4nU7amvbN7g==",
+      "type": "package",
+      "path": "bootstrap.less/3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "bootstrap.less.3.4.1.nupkg.sha512",
+        "bootstrap.less.nuspec",
+        "content/Content/bootstrap/alerts.less",
+        "content/Content/bootstrap/badges.less",
+        "content/Content/bootstrap/bootstrap.less",
+        "content/Content/bootstrap/breadcrumbs.less",
+        "content/Content/bootstrap/button-groups.less",
+        "content/Content/bootstrap/buttons.less",
+        "content/Content/bootstrap/carousel.less",
+        "content/Content/bootstrap/close.less",
+        "content/Content/bootstrap/code.less",
+        "content/Content/bootstrap/component-animations.less",
+        "content/Content/bootstrap/dropdowns.less",
+        "content/Content/bootstrap/forms.less",
+        "content/Content/bootstrap/glyphicons.less",
+        "content/Content/bootstrap/grid.less",
+        "content/Content/bootstrap/input-groups.less",
+        "content/Content/bootstrap/jumbotron.less",
+        "content/Content/bootstrap/labels.less",
+        "content/Content/bootstrap/list-group.less",
+        "content/Content/bootstrap/media.less",
+        "content/Content/bootstrap/mixins.less",
+        "content/Content/bootstrap/mixins/alerts.less",
+        "content/Content/bootstrap/mixins/background-variant.less",
+        "content/Content/bootstrap/mixins/border-radius.less",
+        "content/Content/bootstrap/mixins/buttons.less",
+        "content/Content/bootstrap/mixins/center-block.less",
+        "content/Content/bootstrap/mixins/clearfix.less",
+        "content/Content/bootstrap/mixins/forms.less",
+        "content/Content/bootstrap/mixins/gradients.less",
+        "content/Content/bootstrap/mixins/grid-framework.less",
+        "content/Content/bootstrap/mixins/grid.less",
+        "content/Content/bootstrap/mixins/hide-text.less",
+        "content/Content/bootstrap/mixins/image.less",
+        "content/Content/bootstrap/mixins/labels.less",
+        "content/Content/bootstrap/mixins/list-group.less",
+        "content/Content/bootstrap/mixins/nav-divider.less",
+        "content/Content/bootstrap/mixins/nav-vertical-align.less",
+        "content/Content/bootstrap/mixins/opacity.less",
+        "content/Content/bootstrap/mixins/pagination.less",
+        "content/Content/bootstrap/mixins/panels.less",
+        "content/Content/bootstrap/mixins/progress-bar.less",
+        "content/Content/bootstrap/mixins/reset-filter.less",
+        "content/Content/bootstrap/mixins/reset-text.less",
+        "content/Content/bootstrap/mixins/resize.less",
+        "content/Content/bootstrap/mixins/responsive-visibility.less",
+        "content/Content/bootstrap/mixins/size.less",
+        "content/Content/bootstrap/mixins/tab-focus.less",
+        "content/Content/bootstrap/mixins/table-row.less",
+        "content/Content/bootstrap/mixins/text-emphasis.less",
+        "content/Content/bootstrap/mixins/text-overflow.less",
+        "content/Content/bootstrap/mixins/vendor-prefixes.less",
+        "content/Content/bootstrap/modals.less",
+        "content/Content/bootstrap/navbar.less",
+        "content/Content/bootstrap/navs.less",
+        "content/Content/bootstrap/normalize.less",
+        "content/Content/bootstrap/pager.less",
+        "content/Content/bootstrap/pagination.less",
+        "content/Content/bootstrap/panels.less",
+        "content/Content/bootstrap/popovers.less",
+        "content/Content/bootstrap/print.less",
+        "content/Content/bootstrap/progress-bars.less",
+        "content/Content/bootstrap/responsive-embed.less",
+        "content/Content/bootstrap/responsive-utilities.less",
+        "content/Content/bootstrap/scaffolding.less",
+        "content/Content/bootstrap/tables.less",
+        "content/Content/bootstrap/theme.less",
+        "content/Content/bootstrap/thumbnails.less",
+        "content/Content/bootstrap/tooltip.less",
+        "content/Content/bootstrap/type.less",
+        "content/Content/bootstrap/utilities.less",
+        "content/Content/bootstrap/variables.less",
+        "content/Content/bootstrap/wells.less",
+        "content/Content/fonts/glyphicons-halflings-regular.eot",
+        "content/Content/fonts/glyphicons-halflings-regular.svg",
+        "content/Content/fonts/glyphicons-halflings-regular.ttf",
+        "content/Content/fonts/glyphicons-halflings-regular.woff",
+        "content/Content/fonts/glyphicons-halflings-regular.woff2",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.min.js",
+        "contentFiles/Content/bootstrap/alerts.less",
+        "contentFiles/Content/bootstrap/badges.less",
+        "contentFiles/Content/bootstrap/bootstrap.less",
+        "contentFiles/Content/bootstrap/breadcrumbs.less",
+        "contentFiles/Content/bootstrap/button-groups.less",
+        "contentFiles/Content/bootstrap/buttons.less",
+        "contentFiles/Content/bootstrap/carousel.less",
+        "contentFiles/Content/bootstrap/close.less",
+        "contentFiles/Content/bootstrap/code.less",
+        "contentFiles/Content/bootstrap/component-animations.less",
+        "contentFiles/Content/bootstrap/dropdowns.less",
+        "contentFiles/Content/bootstrap/forms.less",
+        "contentFiles/Content/bootstrap/glyphicons.less",
+        "contentFiles/Content/bootstrap/grid.less",
+        "contentFiles/Content/bootstrap/input-groups.less",
+        "contentFiles/Content/bootstrap/jumbotron.less",
+        "contentFiles/Content/bootstrap/labels.less",
+        "contentFiles/Content/bootstrap/list-group.less",
+        "contentFiles/Content/bootstrap/media.less",
+        "contentFiles/Content/bootstrap/mixins.less",
+        "contentFiles/Content/bootstrap/mixins/alerts.less",
+        "contentFiles/Content/bootstrap/mixins/background-variant.less",
+        "contentFiles/Content/bootstrap/mixins/border-radius.less",
+        "contentFiles/Content/bootstrap/mixins/buttons.less",
+        "contentFiles/Content/bootstrap/mixins/center-block.less",
+        "contentFiles/Content/bootstrap/mixins/clearfix.less",
+        "contentFiles/Content/bootstrap/mixins/forms.less",
+        "contentFiles/Content/bootstrap/mixins/gradients.less",
+        "contentFiles/Content/bootstrap/mixins/grid-framework.less",
+        "contentFiles/Content/bootstrap/mixins/grid.less",
+        "contentFiles/Content/bootstrap/mixins/hide-text.less",
+        "contentFiles/Content/bootstrap/mixins/image.less",
+        "contentFiles/Content/bootstrap/mixins/labels.less",
+        "contentFiles/Content/bootstrap/mixins/list-group.less",
+        "contentFiles/Content/bootstrap/mixins/nav-divider.less",
+        "contentFiles/Content/bootstrap/mixins/nav-vertical-align.less",
+        "contentFiles/Content/bootstrap/mixins/opacity.less",
+        "contentFiles/Content/bootstrap/mixins/pagination.less",
+        "contentFiles/Content/bootstrap/mixins/panels.less",
+        "contentFiles/Content/bootstrap/mixins/progress-bar.less",
+        "contentFiles/Content/bootstrap/mixins/reset-filter.less",
+        "contentFiles/Content/bootstrap/mixins/reset-text.less",
+        "contentFiles/Content/bootstrap/mixins/resize.less",
+        "contentFiles/Content/bootstrap/mixins/responsive-visibility.less",
+        "contentFiles/Content/bootstrap/mixins/size.less",
+        "contentFiles/Content/bootstrap/mixins/tab-focus.less",
+        "contentFiles/Content/bootstrap/mixins/table-row.less",
+        "contentFiles/Content/bootstrap/mixins/text-emphasis.less",
+        "contentFiles/Content/bootstrap/mixins/text-overflow.less",
+        "contentFiles/Content/bootstrap/mixins/vendor-prefixes.less",
+        "contentFiles/Content/bootstrap/modals.less",
+        "contentFiles/Content/bootstrap/navbar.less",
+        "contentFiles/Content/bootstrap/navs.less",
+        "contentFiles/Content/bootstrap/normalize.less",
+        "contentFiles/Content/bootstrap/pager.less",
+        "contentFiles/Content/bootstrap/pagination.less",
+        "contentFiles/Content/bootstrap/panels.less",
+        "contentFiles/Content/bootstrap/popovers.less",
+        "contentFiles/Content/bootstrap/print.less",
+        "contentFiles/Content/bootstrap/progress-bars.less",
+        "contentFiles/Content/bootstrap/responsive-embed.less",
+        "contentFiles/Content/bootstrap/responsive-utilities.less",
+        "contentFiles/Content/bootstrap/scaffolding.less",
+        "contentFiles/Content/bootstrap/tables.less",
+        "contentFiles/Content/bootstrap/theme.less",
+        "contentFiles/Content/bootstrap/thumbnails.less",
+        "contentFiles/Content/bootstrap/tooltip.less",
+        "contentFiles/Content/bootstrap/type.less",
+        "contentFiles/Content/bootstrap/utilities.less",
+        "contentFiles/Content/bootstrap/variables.less",
+        "contentFiles/Content/bootstrap/wells.less",
+        "contentFiles/Content/fonts/glyphicons-halflings-regular.eot",
+        "contentFiles/Content/fonts/glyphicons-halflings-regular.svg",
+        "contentFiles/Content/fonts/glyphicons-halflings-regular.ttf",
+        "contentFiles/Content/fonts/glyphicons-halflings-regular.woff",
+        "contentFiles/Content/fonts/glyphicons-halflings-regular.woff2",
+        "contentFiles/Scripts/bootstrap.js",
+        "contentFiles/Scripts/bootstrap.min.js"
+      ]
+    },
+    "CloudinaryDotNet/1.14.0": {
+      "sha512": "d6bAnrCc6iQ1pIMepR+krE0CgJoVRH2/uLPHZpZ5QY4zyqkLehwDocqWHFaLlkZJFUdEWLBianHrFitGdyQkcQ==",
+      "type": "package",
+      "path": "cloudinarydotnet/1.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cloudinarydotnet.1.14.0.nupkg.sha512",
+        "cloudinarydotnet.nuspec",
+        "lib/net45/CloudinaryDotNet.dll",
+        "lib/net45/CloudinaryDotNet.xml",
+        "lib/netstandard1.3/CloudinaryDotNet.dll",
+        "lib/netstandard1.3/CloudinaryDotNet.xml"
+      ]
+    },
+    "jQuery/1.9.1": {
+      "sha512": "HiX9icLyiJGgiL5EOIn0d1MBPHVV2M9mzWT4mANdniDNR51RvAFTyKEXEd2+5yQJ4PJ5xePOR61Vjj/omQzYcw==",
+      "type": "package",
+      "path": "jquery/1.9.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.9.1-vsdoc.js",
+        "Content/Scripts/jquery-1.9.1.js",
+        "Content/Scripts/jquery-1.9.1.min.js",
+        "Content/Scripts/jquery-1.9.1.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-1.9.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.9.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Configuration/5.0.0": {
       "sha512": "LN322qEKHjuVEhhXueTUe7RNePooZmS8aGid5aK2woX3NPjSnONFyKUc6+JknOS6ce6h2tCLfKPTBXE3mN/6Ag==",
       "type": "package",
@@ -343,6 +580,37 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {

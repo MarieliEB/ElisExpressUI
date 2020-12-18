@@ -80,3 +80,4 @@ D:\Users\Elian\Desktop\EliExpress\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp
 D:\Users\Elian\Desktop\EliExpress\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Users\Elian\Desktop\EliExpress\ElisExpressUI\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpress.csproj.CoreCompileInputs.cache
 D:\Users\Elian\Desktop\EliExpress\ElisExpressUI\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpress.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Elian\Desktop\EliExpress\ElisExpressUI\ElisExpress\obj\Debug\netcoreapp3.1\Razor\Views\Home\vCarrito.cshtml.g.cs

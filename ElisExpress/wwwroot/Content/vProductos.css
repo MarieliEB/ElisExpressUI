@@ -34,3 +34,11 @@
             text-decoration: none;
             color: #3498db;
         }
+
+        .container .card h4 {
+            font-weight: 500;
+        }
+
+#boton_carrito:hover {
+    color: #E95420;
+}

@@ -1,29 +1,65 @@
-﻿@model CategoriaViewModel
+﻿
 
-    <a asp-controller="Home" asp-action="CrearCategoria">Crear categoría</a>
+<section id="jumbotron1" class="min-vh-100">
+    <div id="jumbotron1-caption">
+        <div class="row text-white">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center p-4">
+                <h1 class="display-4 text-truncate">ElisExpresss...</h1>
+                <div class="">
+                    <form action="" class="justify-content-center" id="formInputBuscar">
+                        <button type="submit" class="btn btn-primary btn-lg">Buscar productos</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@*<div class="jumbotron jumbotron-fluid" id="jumbotron1">
 
-@foreach (var categoria in Model.Categorias)
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">Nombre</th>
-                <th scope="col">Descripción</th>
-                <th scope="col">Id</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                    <td>
-                        @categoria.Nombre
-                    </td>
-                    <td>
-                        @categoria.Descripcion
-                    </td>
-                    <td>
-                        @categoria.Id
-                    </td>
-            </tr>
-        </tbody>
-    </table>
-}
+    </div>*@
+<section class="jumboCenter bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2 class="section-heading text-white">¡Descubre lo que todos hablan con 3 simples pasos!</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="clearfix bg-white pasos text-dark">
+    <div class="emptyRight">
+        <source media="(min-width: 768px)" srcset="Content/imgs/bucar.jpg">
+        <img class="none" src="Content/imgs/buscar.jpg" alt="Paso1" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="introRight">
+        <h1 class="numberCircle" style="padding-top:0px;">1</h1>
+
+        <h2>Buscá tu artículo favorito y agrégalo al carrito.</h2>
+
+    </div>
+</section>
+
+<section class="clearfix bg-dark pasos">
+    <div class="emptyLeft">
+        <source media="(min-width: 768px)" srcset="Content/imgs/payment.jpg">
+        <img class="none" src="Content/imgs/payment.jpg" alt="Paso2" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="introLeft">
+        <h1 class="numberCircle" style="padding-top:0px;">2 </h1>
+        <h1>Confirmá el pago. </h1>
+    </div>
+</section>
+
+<section class="clearfix text-dark pasos ">
+    <div class="emptyRight">
+        <source media="(min-width: 768px)" srcset="Content/imgs/delivery.jpg">
+        <img class="none" src="Content/imgs/delivery.jpg" alt="Paso3" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="introRight">
+        <h1 class="numberCircle" style="padding-top:0px;">3</h1>
+
+        <h1>Tu producto será entregado por uno de nuestros colaboradores.</h1>
+
+    </div>
+</section>

@@ -1,0 +1,376 @@
+﻿/*.navbar {
+    background: linear-gradient(to bottom, #f6ddc9, #facda9, #fdbd8b, #ffad6d, #ff9c4f);
+}*/
+#menuHorizontal{
+    /*padding-left: 3vw;*/
+    padding-left: 50px;
+    /*padding-right: 50px;*/
+}
+
+
+/*Inicia Estilos del boton de sesion*/
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+
+.drop-down {
+    display: inline-block;
+    position: relative;
+}
+
+.drop-down__button {
+    background-image: linear-gradient(to right, #e1690d, #e83e3d, #dd0a63, #bd0587, #852ca4);
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 18px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition-delay:inherit;
+}
+
+    .drop-down__button:hover {
+        background: #e1690d;
+        /*transition: 0.1s;*/
+        padding: 0 18px;
+    }
+
+.drop-down__name {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.drop-down__icon {
+    width: 18px;
+    vertical-align: middle;
+    margin-left: 14px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+
+
+.drop-down__menu-box {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    visibility: hidden;
+    z-index: 10;
+    opacity: 0;
+    margin-top: 5px;
+}
+
+.drop-down__menu {
+    margin: 0;
+    padding: 0 13px;
+    background: white;
+    list-style: none;
+}
+
+.drop-down__menu-box:before {
+    content: '';
+    background-color: transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    border-top: 8px solid transparent;
+    top: -15px;
+    right: 18px;
+}
+
+.drop-down__menu-box:after {
+    content: '';
+    background-color: transparent;
+}
+
+.drop-down__item {
+    font-size: 13px;
+    padding: 13px 0;
+    text-align: left;
+    font-weight: 500;
+    color: #D66B09;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #e0e2e9;
+}
+
+.drop-down__item-icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0px;
+    fill: #8995b6;
+}
+
+.drop-down__item:hover .drop-down__item-icon {
+    fill: #8D09F2;
+}
+
+.drop-down__item:hover {
+    color: #8D09F2;
+}
+
+
+
+.drop-down__item:last-of-type {
+    border-bottom: 0;
+}
+
+
+.drop-down--active .drop-down__menu-box {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+.drop-down__item:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 28px;
+    background-color: #8D09F2;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.drop-down__item:hover:before {
+    display: block;
+}
+
+
+
+/*Finaliza Estilos del boton de sesion*/
+
+/*Iniciar estilos de search bar*/
+
+
+
+.search__container {
+    padding-top: 64px;
+    margin: 0 auto;
+    /*width: 630px;*/
+
+}
+
+.search__input {
+    width: 100%;
+    padding: 12px 24px;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575756;
+    background-color: white;
+    /*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 22 22'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+input::placeholder {
+    color: color(#575756 a(0.8));
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+input:hover,
+input:focus {
+    /*padding: 12px 24px;*/
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border: 2px solid #ff8000;
+}
+    
+
+
+/*Codigo de las estrellas*/
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/*fieldset, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 10px;
+}*/
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    border: none;
+    float: left;
+}
+
+    .rating > input {
+        display: none;
+    }
+
+    .rating > label:before {
+        margin: 5px;
+        font-size: 1.25em;
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f005";
+    }
+
+    .rating > .half:before {
+        content: "\f089";
+        position: absolute;
+    }
+
+    .rating > label {
+        color: #ddd;
+        float: right;
+    }
+
+    /***** CSS Magic to Highlight Stars on Hover *****/
+
+    .rating > input:checked ~ label, /* show gold star when clicked */
+    .rating:not(:checked) > label:hover, /* hover current star */
+    .rating:not(:checked) > label:hover ~ label {
+        color: #FFD700;
+    }
+        /* hover previous stars in list */
+
+        .rating > input:checked + label:hover, /* hover current star when changing rating */
+        .rating > input:checked ~ label:hover,
+        .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+        .rating > input:checked ~ label:hover ~ label {
+            color: #FFED85;
+        } 
+
+
+
+
+
+/*******Codigo del menu lateral**********/
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+#menuVertical {/*Quitar padding de bootstrap*/
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-brand {
+    display: block;
+    height: 48px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    /*background: #343434;*/
+    color: #fff;
+    text-align: center;
+    transition: background 0.5s;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+    .navbar-brand:hover {
+        /*background: #3c3c3c;*/
+        /*color: #efefef;*/
+        transition: background 0.5s;
+    }
+
+.sidebar .nav-link {
+    padding: 1rem;
+    font-weight: 500;
+    color: #772953;
+}
+
+.sidebar .nav-item {
+    color: #772953;
+    /*border-top-style: solid;
+    border-color: #EEEEEE;
+    border-width: 1px 0px;*/
+}
+
+.sidebar .nav-item:hover {
+    background: #772953;
+}
+
+.sidebar .nav-link:hover {
+    color: #EEEEEE;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 15px;
+    margin-left: 15px;
+    /*color: #999;*/
+}
+
+.sidebar .nav-link.active {
+    color: #EEEEEE;
+    background: #772953;
+}
+
+
+.sidebar .nav-item:hover {
+    padding-left: 16px;
+    transition: padding-left 0.5s;
+}
+
+

@@ -1,17 +1,77 @@
 ﻿@model Producto
 
-    <form asp-controller="Producto" asp-action="CrearProducto" method="post">
-        <label>Ingrese el nombre</label>
-        <input type="text" asp-for="Nombre" />
+<div class="col-12">
+    <h1 class="display-3 col-12" style="text-align-last: center; margin-bottom: 30px;">Registrar producto</h1>
 
-        <label>Ingrese el id</label>
-        <input type="number" asp-for="Id" />
+    <form class="row" asp-controller="Producto" asp-action="CrearProducto" method="post">
 
-        <label>Ingrese la descripción</label>
-        <input type="text" asp-for="Descripcion"/>
+        <fieldset class="col-4">
+            <div class="form-group">
+                <label>Ingrese el nombre</label>
+                <input type="text" asp-for="Nombre" style="width:100%;" />
 
-        <label>Ingrese el precio</label>
-        <input type="number" asp-for="Precio" />
+                <label>Ingrese una descripción</label>
+                <input type="text" asp-for="Id" style="width:100%;" />
 
-        <input type="submit" value="Crear" />
+                <label>Ingrese el cantidad</label>
+                <input type="number" asp-for="Precio" />
+            </div>
+        </fieldset>
+
+        <fieldset class="col-4">
+            <div class="form-group">
+                <label>Ingrese el precio</label>
+                <input type="number" asp-for="Precio" style="width:100%;" />
+
+                <label>Ingrese una categoría</label>
+                <input type="text" asp-for="Id" style="width:100%;" />
+            </div>
+        </fieldset>
+
+        <fieldset class="col-4">
+            <div class="form-group">
+                <div class="card border-secondary mb-3" style="max-width: 20rem; margin-top: 30px;">
+                    <div class="card-header bg-dark text-white" style="text-align-last: center;">Adjunte una imagen</div>
+                    <div class="card-body">
+                        <figure class="image_holder" style="max-width: 20rem;">
+                            <img src="" alt="seleccionar imagen" id="registrarImagen" class="img-fluid" style="width: 100%; height: 200px;">
+                        </figure>
+                        <button type="button" id="btnAgregarImagen" class="boton_imagen btn-dos" style="width: 100%;">Subir imagen</button>
+                    </div>
+                </div>
+
+            </div>
+        </fieldset>
     </form>
+
+    <div class="modal-footer">
+
+    </div>
+
+</div>
+
+<script>
+    function validarCampos() {
+        var camposLlenos = true;
+        $("#frmEdition input").each(function (input) {
+            if (this.value == "") {
+                this.classList.add("is-invalid");
+                camposLlenos = false;
+            }
+            else {
+                this.classList.remove("is-invalid");
+            }
+        });
+        return camposLlenos;
+    }
+
+    $("#btnCreate").click(function () {
+        if (validarCampos()) {
+            $("#modalVerificacion").modal("show");
+        }
+    })
+
+    $("#btnCancela").click(function () {
+        window.location.href = origin + "/Comerciante/vPerfilComercio";
+    })
+</script>

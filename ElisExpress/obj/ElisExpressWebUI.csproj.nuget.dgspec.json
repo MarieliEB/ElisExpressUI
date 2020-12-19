@@ -48,6 +48,14 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.14.0, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[6.4.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

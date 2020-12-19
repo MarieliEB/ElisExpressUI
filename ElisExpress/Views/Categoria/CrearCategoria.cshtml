@@ -1,0 +1,21 @@
+﻿@model Categoria
+
+<div class="col-12">
+    <h1 class="display-3 col-12" style="text-align-last: center; margin-bottom: 30px;">Registrar categoría</h1>
+
+    <form asp-controller="Categoria" asp-action="CrearCategoria" method="post">
+
+        <fieldset class="col-4">
+
+            <label>Ingrese el nombre</label>
+            <input type="text" asp-for="Nombre" style="width:100%;" />
+
+            <label>Ingrese la descripción</label>
+            <input type="text" asp-for="Descripcion" style="width:100%;" />
+
+            <input type="submit" class="boton_imagen btn-dos" style="margin-top: 30px; width: 80%;" value="Crear" />
+
+        </fieldset>
+
+    </form>
+</div>

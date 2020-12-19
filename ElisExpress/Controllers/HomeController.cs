@@ -8,16 +8,24 @@ using Microsoft.Extensions.Logging;
 using ElisExpress.Models;
 using ElisExpress.ViewModels;
 using ElisExpress.Repositories;
+using System.Configuration;
+using Microsoft.Extensions.Configuration;
+using System.Net.Http;
 
 namespace ElisExpress.Controllers
 {
     public class HomeController : Controller
     {
         private RepositorioCategorias repositorioCategorias;
+        private IConfiguration Configuration;
+        private string ApiBaseUrl;
 
-        public HomeController(RepositorioCategorias repositorioCategorias)
+        public HomeController(RepositorioCategorias repositorioCategorias, IConfiguration configuration)
         {
             this.repositorioCategorias = repositorioCategorias;
+            Configuration = configuration;
+
+            ApiBaseUrl = Configuration.GetValue<string>("WebAPIBaseUrl");
         }
 
         public IActionResult Index()
@@ -33,7 +41,7 @@ namespace ElisExpress.Controllers
         [HttpGet]
         public IActionResult CrearCategoria()
         {
-            return View();
+                return View();
         }
 
 

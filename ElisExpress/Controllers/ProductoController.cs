@@ -1,21 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using ElisExpress.Models;
 using ElisExpress.Repositories;
 using ElisExpress.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace ElisExpress.Controllers
 {
     public class ProductoController : Controller
     {
         private RepositorioProductos repositorioProductos;
+        private IConfiguration Configuration;
+        private string ApiBaseUrl;
 
-        public ProductoController(RepositorioProductos repositorioProductos)
+        public ProductoController(RepositorioProductos repositorioProductos, IConfiguration configuration)
         {
             this.repositorioProductos = repositorioProductos;
+            Configuration = configuration;
+
+            ApiBaseUrl = Configuration.GetValue<string>("WebAPIBaseUrl");
         }
 
         public IActionResult Productos()
@@ -23,7 +30,7 @@ namespace ElisExpress.Controllers
 
             var modelo = new ProductoViewModel();
 
-            modelo.Productos = repositorioProductos.Productos.ToList();
+            modelo.Productos = repositorioProductos.ObtenerProductos();
 
             return View(modelo);
         }
@@ -31,14 +38,23 @@ namespace ElisExpress.Controllers
         [HttpGet]
         public IActionResult CrearProducto()
         {
-            return View();
+
+        //    IEnumerable<ProductoViewModel> productos = null;
+
+        //    productos = Enumerable.Empty<ProductoViewModel>();
+
+        //        ModelState.AddModelError(string.Empty, "Server error. No existen productos registrados.");
+           
+        //}
+        //    return View(productos);
+          return View();
         }
 
 
         [HttpPost]
         public IActionResult CrearProducto(Producto producto)
         {
-            repositorioProductos.Productos.Add(producto); //Ir a la base de datos a guardarlo 
+            //repositorioProductos..Add(producto); //Ir a la base de datos a guardarlo 
             return RedirectToAction("Productos");
         }
     }

@@ -26,3 +26,17 @@ D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCo
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CopyComplete
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.dll
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.pdb
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.deps.json
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.dll
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.pdb
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.AssemblyInfo.cs
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CopyComplete
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.dll
+C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.pdb

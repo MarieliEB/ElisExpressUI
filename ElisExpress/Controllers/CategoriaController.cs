@@ -46,7 +46,23 @@ namespace ElisExpress.Controllers
         [HttpPost]
         public IActionResult CrearCategoria(Categoria categoria)
         {
-            //repositorioProductos..Add(producto); //Ir a la base de datos a guardarlo 
+            var postExitoso = repositorioCategorias.CrearCategoria(categoria); //Ir a la base de datos a guardarlo 
+            if (postExitoso)
+            {
+                return RedirectToAction("Categorias");
+            }
+            else
+            {
+                ModelState.Clear();
+                ModelState.AddModelError(string.Empty, "No se pudo realizar el registro");
+                return View();
+            }
+           
+        }
+
+        public IActionResult BorrarCategoria(int id)
+        {
+            var deleteExitoso = repositorioCategorias.BorrarCategoria(id);
             return RedirectToAction("Categorias");
         }
     }

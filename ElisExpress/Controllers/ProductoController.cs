@@ -44,8 +44,18 @@ namespace ElisExpress.Controllers
         [HttpPost]
         public IActionResult CrearProducto(Producto producto)
         {
-            repositorioProductos.CrearProducto(producto); //Ir a la base de datos a guardarlo 
-            return RedirectToAction("Productos");
+            var postExitoso = repositorioProductos.CrearProducto(producto); //Ir a la base de datos a guardarlo 
+            if (postExitoso)
+            {
+                return RedirectToAction("Productos");
+            }
+            else
+            {
+                ModelState.Clear();
+                ModelState.AddModelError(string.Empty, "No se pudo realizar el registro");
+                return View();
+            }
+            
         }
 
 

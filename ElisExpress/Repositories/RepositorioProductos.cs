@@ -43,8 +43,9 @@ namespace ElisExpress.Repositories
             }
         }
 
-        public void CrearProducto(Producto producto)
+        public Boolean CrearProducto(Producto producto)
         {
+            var postExitoso = false;
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://localhost:44345/api/productos");
@@ -56,9 +57,11 @@ namespace ElisExpress.Repositories
 
                 if (result.IsSuccessStatusCode)
                 {
-                    //return RedirectToAction("Index");
+                    postExitoso = true;
                 }
             }
+
+            return postExitoso;
         }
     }
 

@@ -28,9 +28,6 @@ $(document).ready(function () {
         miFiltrar();
     })
 
-    //const inputBuscar = document.querySelector('#buscaInfoPrincipal');
-    //inputBuscar.addEventListener('keyup', miFiltrar);
-
 
 
 });

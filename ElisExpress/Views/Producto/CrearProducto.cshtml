@@ -53,29 +53,3 @@
     </div>
 
 </div>
-
-<script>
-    function validarCampos() {
-        var camposLlenos = true;
-        $("#frmEdition input").each(function (input) {
-            if (this.value == "") {
-                this.classList.add("is-invalid");
-                camposLlenos = false;
-            }
-            else {
-                this.classList.remove("is-invalid");
-            }
-        });
-        return camposLlenos;
-    }
-
-    $("#btnCreate").click(function () {
-        if (validarCampos()) {
-            $("#modalVerificacion").modal("show");
-        }
-    })
-
-    $("#btnCancela").click(function () {
-        window.location.href = origin + "/Comerciante/vPerfilComercio";
-    })
-</script>

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aL0xVbKm19x/Sy0vnnvhB+tkaEVWCZvNBl94Y9P17/hJDWYo70SJ+k53kMePkpyH+6tju7iMoiPwxteVBgzt3g==",
+  "dgSpecHash": "HTdO9zohS2QOyvsFWKYW62Nvm3CaJPHHnHbuA4BRSUyLiBYUpCdI9E6zE+6ApHzPE/5TAkjvnjpWGRMO6NHAyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

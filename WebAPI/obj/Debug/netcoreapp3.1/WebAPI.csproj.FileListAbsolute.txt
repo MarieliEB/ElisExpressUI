@@ -187,3 +187,8 @@ C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Nancy.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Nancy.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs

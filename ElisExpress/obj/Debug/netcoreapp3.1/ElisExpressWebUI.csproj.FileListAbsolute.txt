@@ -186,3 +186,7 @@ C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\ElisExpress\bin\Debug\netcor
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Nancy.dll
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpressWebUI.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\Nueva carpeta (2)\ElisExpressUI\ElisExpress\obj\Debug\netcoreapp3.1\ElisExpressWebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\ElisExpress\bin\Debug\netcoreapp3.1\Nancy.dll

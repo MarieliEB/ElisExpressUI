@@ -16,6 +16,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\Elian\.nuget\packages\webgrease\1.6.0</PkgWebGrease>
     <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Elian\.nuget\packages\jquery\1.9.1</PkgjQuery>
   </PropertyGroup>
 </Project>

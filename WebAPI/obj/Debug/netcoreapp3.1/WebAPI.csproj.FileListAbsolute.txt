@@ -192,3 +192,5 @@ D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Micros
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Nancy.dll
 D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\WebAPI\bin\Debug\netcoreapp3.1\WebGrease.dll

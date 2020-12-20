@@ -8,6 +8,10 @@ using ElisExpress.Controllers;
 using ElisExpress.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Nancy.Json;
+using System.Text.Json;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace ElisExpress.Repositories
 {
@@ -39,8 +43,26 @@ namespace ElisExpress.Repositories
             }
         }
 
+        public void CrearProducto(Producto producto)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44345/api/productos");
 
+                //HTTP POST
+                StringContent content = new StringContent(JsonConvert.SerializeObject(producto), Encoding.UTF8, "application/json");
+                var postTask = client.PostAsync("Productos", content);
+                var result = postTask.Result;
+
+                if (result.IsSuccessStatusCode)
+                {
+                    //return RedirectToAction("Index");
+                }
+            }
+        }
     }
+
+
 
     //[HttpPost]
     //public IActionResult CrearProducto(Producto producto)

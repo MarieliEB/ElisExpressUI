@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\AppCore.csproj": {
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\AppCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\AppCore.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\AppCore.csproj",
         "projectName": "AppCore",
-        "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\AppCore.csproj",
-        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\AppCore.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -54,29 +54,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj"
+              "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -123,29 +129,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj": {
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj",
         "projectName": "ElisExpressWebUI",
-        "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj",
-        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,6 +189,10 @@
               "target": "Package",
               "version": "[1.14.0, )"
             },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Rebus": {
               "target": "Package",
               "version": "[6.4.1, )"
@@ -196,6 +212,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -204,24 +226,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj": {
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -254,29 +276,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -289,14 +317,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\AppCore.csproj": {
-                "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\AppCore\\AppCore.csproj"
+              "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\AppCore.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\AppCore\\AppCore.csproj"
               },
-              "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj": {
-                "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj"
+              "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\ElisExpress\\ElisExpressWebUI.csproj"
               },
-              "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\Elian\\Desktop\\Compo\\ElisExpressUI\\Entities\\Entities.csproj"
+              "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\Nueva carpeta (2)\\ElisExpressUI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -319,6 +347,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -327,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

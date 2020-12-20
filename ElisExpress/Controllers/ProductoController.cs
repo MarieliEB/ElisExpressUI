@@ -35,37 +35,16 @@ namespace ElisExpress.Controllers
             return View(modelo);
         }
 
-
-        public ActionResult create()
+        [HttpGet]
+        public ActionResult CrearProducto()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult Create(Producto producto)
-        {
-            using (var client = new HttpClient())
-            {
-                client.BaseAddress = new Uri("https://localhost:44345/api/productost");
-
-                //HTTP POST
-                //var postTask = client.PostAsync(producto); //<Producto>("producto", producto);
-                //var result = postTask.Result;
-                //if (result.IsSuccessStatusCode)
-                //{
-                //    return RedirectToAction("Index");
-                //}
-            }
-
-            ModelState.AddModelError(string.Empty, "Server Error. Please contact administrator.");
-
-            return View(producto);
-        }
-
-        [HttpPost]
         public IActionResult CrearProducto(Producto producto)
         {
-            Create(producto); //Ir a la base de datos a guardarlo 
+            repositorioProductos.CrearProducto(producto); //Ir a la base de datos a guardarlo 
             return RedirectToAction("Productos");
         }
 

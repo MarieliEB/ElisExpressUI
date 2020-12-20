@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'componenteselis'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_67087f3def3343b68c28e18f528e79bb }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ca62344ec37d4af499964ab340c29714 }}
         package: ${{env.DOTNET_ROOT}}/myapp 

@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - componenteselis
+name: Build and deploy ASP.Net Core app to Azure Web App - eiexpress
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'componenteselis'
+        app-name: 'eiexpress'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8f7d2f5c4c3e410c9e9678b9e9d3d12a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d7c973cbcf7c4f2fb4ea54ac23a71e4d }}
         package: ${{env.DOTNET_ROOT}}/myapp 

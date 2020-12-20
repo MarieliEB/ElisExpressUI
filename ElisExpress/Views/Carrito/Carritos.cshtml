@@ -1,0 +1,39 @@
+﻿@model CarritoViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="display-3 col-12" style="text-align-last: center;">Carito de compras</h3>
+
+<hr class="my-4">
+
+<div class=" col-12">
+    <table class="table table-hover col-11 table-bordered" style="text-align: center;" id="tbl_ordenesComercio">
+        <thead>
+            <tr class="table-dark">
+                <th scope="col">Nombre</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Id</th>
+            </tr>
+        </thead>
+
+        @foreach (var carrito in Model.Carritos)
+        {
+            <tbody>
+                <tr>
+                    <td>
+                        @carrito.IdProducto
+                    </td>
+                    <td>
+                        @carrito.Cantidad
+                    </td>
+                    <td>
+                        @*@carrito.NombreProducto*@
+                    </td>
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>

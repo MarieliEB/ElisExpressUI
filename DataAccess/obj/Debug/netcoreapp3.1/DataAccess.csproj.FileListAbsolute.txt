@@ -10,3 +10,15 @@ C:\Users\hp\source\repos\ElisExpress\DataAccess\obj\Debug\netcoreapp3.1\DataAcce
 C:\Users\hp\source\repos\ElisExpress\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
 C:\Users\hp\source\repos\ElisExpress\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 C:\Users\hp\source\repos\ElisExpress\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

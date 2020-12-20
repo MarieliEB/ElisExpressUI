@@ -1,21 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using ElisExpress.Models;
 using ElisExpress.Repositories;
 using ElisExpress.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace ElisExpress.Controllers
 {
     public class CategoriaController : Controller
     {
         private RepositorioCategorias repositorioCategorias;
+        private IConfiguration Configuration;
+        private string ApiBaseUrl;
 
-        public CategoriaController(RepositorioCategorias repositorioCategorias)
+        public CategoriaController(RepositorioCategorias repositorioCategorias, IConfiguration configuration)
         {
             this.repositorioCategorias = repositorioCategorias;
+            Configuration = configuration;
+
+            ApiBaseUrl = Configuration.GetValue<string>("WebAPIBaseUrl");
         }
 
         public IActionResult Categorias()
@@ -23,7 +30,7 @@ namespace ElisExpress.Controllers
 
             var modelo = new CategoriaViewModel();
 
-            modelo.Categorias = repositorioCategorias.Categorias.ToList();
+            modelo.Categorias = repositorioCategorias.ObtenerCategorias();
 
             return View(modelo);
         }
@@ -31,6 +38,7 @@ namespace ElisExpress.Controllers
         [HttpGet]
         public IActionResult CrearCategoria()
         {
+
             return View();
         }
 
@@ -38,7 +46,7 @@ namespace ElisExpress.Controllers
         [HttpPost]
         public IActionResult CrearCategoria(Categoria categoria)
         {
-            repositorioCategorias.Categorias.Add(categoria); //Ir a la base de datos a guardarlo 
+            //repositorioProductos..Add(producto); //Ir a la base de datos a guardarlo 
             return RedirectToAction("Categorias");
         }
     }

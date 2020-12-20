@@ -33,7 +33,7 @@ namespace ElisExpress.Controllers
             
             var modelo = new CategoriaViewModel();
 
-            modelo.Categorias = repositorioCategorias.Categorias.ToList();
+           // modelo.Categorias = repositorioCategorias.Categorias.ToList();
 
             return View(modelo);
         }
@@ -48,7 +48,7 @@ namespace ElisExpress.Controllers
         [HttpPost]
         public IActionResult CrearCategoria(Categoria categoria)
         {
-            repositorioCategorias.Categorias.Add(categoria); //Ir a la base de datos a guardarlo 
+          //  repositorioCategorias.Categorias.Add(categoria); //Ir a la base de datos a guardarlo 
             return RedirectToAction("Index");
         }
     }

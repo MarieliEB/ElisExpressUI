@@ -7,3 +7,11 @@ C:\Users\hp\source\repos\ElisExpress\Entities\obj\Debug\netcoreapp3.1\Entities.A
 C:\Users\hp\source\repos\ElisExpress\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\ElisExpress\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\hp\source\repos\ElisExpress\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

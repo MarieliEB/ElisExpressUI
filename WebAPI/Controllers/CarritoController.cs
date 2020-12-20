@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/carrito")]
+    [Route("api/carritos")]
     [ApiController]
     public class CarritoController : ControllerBase
     {

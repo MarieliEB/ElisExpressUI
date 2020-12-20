@@ -12,3 +12,17 @@ C:\Users\hp\source\repos\ElisExpress\AppCore\obj\Debug\netcoreapp3.1\AppCore.csp
 C:\Users\hp\source\repos\ElisExpress\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CopyComplete
 C:\Users\hp\source\repos\ElisExpress\AppCore\obj\Debug\netcoreapp3.1\AppCore.dll
 C:\Users\hp\source\repos\ElisExpress\AppCore\obj\Debug\netcoreapp3.1\AppCore.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.deps.json
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\AppCore.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csprojAssemblyReference.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.AssemblyInfoInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.AssemblyInfo.cs
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CoreCompileInputs.cache
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.csproj.CopyComplete
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.dll
+D:\Users\Elian\Desktop\Compo\ElisExpressUI\AppCore\obj\Debug\netcoreapp3.1\AppCore.pdb

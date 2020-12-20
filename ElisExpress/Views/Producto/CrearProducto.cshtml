@@ -6,7 +6,7 @@
     <form class="row" asp-controller="Producto" asp-action="CrearProducto" method="post">
 
         <fieldset class="col-4">
-            <div class="form-group">
+
                 <label>Ingrese el nombre</label>
                 <input type="text" asp-for="Nombre" style="width:100%;" />
 
@@ -14,18 +14,20 @@
                 <input type="text" asp-for="Id" style="width:100%;" />
 
                 <label>Ingrese el cantidad</label>
-                <input type="number" asp-for="Precio" />
-            </div>
+                <input type="number" asp-for="Precio" style="width:100%;" />
+
         </fieldset>
 
         <fieldset class="col-4">
-            <div class="form-group">
+
                 <label>Ingrese el precio</label>
                 <input type="number" asp-for="Precio" style="width:100%;" />
 
                 <label>Ingrese una categoría</label>
                 <input type="text" asp-for="Id" style="width:100%;" />
-            </div>
+
+                <input type="submit" style="margin-top: 30px; width: 100%;" value="Crear" />
+
         </fieldset>
 
         <fieldset class="col-4">
